@@ -10338,6 +10338,21 @@ header div #btn {
   padding: 1% 2% 1% 2%;
 }
 
+footer {
+  background-color: black;
+  color: white;
+  height: 60px;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+footer div p {
+  margin-top: 1.5%;
+  font-size: 10px;
+}
+
 @font-face {
   font-family: "Aalto";
   src: url(../../public/fonts/AaltoSansEssential-Regular.ttf);
