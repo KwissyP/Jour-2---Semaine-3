@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Aalto";
+  src: url(../../public/fonts/AaltoSansEssential-Regular.ttf);
+}
 /*!
  * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -10292,6 +10296,7 @@ readers do not read off random characters that represent icons */
 body {
   margin: 0;
   padding: 0;
+  font-family: "Aalto";
 }
 
 nav {
@@ -10310,15 +10315,20 @@ nav ul li {
 }
 
 header div {
-  font-size: 25px;
+  font-size: 30px;
   background-color: #0000FF;
-  line-height: 0.1em;
+  line-height: 0.7em;
   padding: 8%;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 7%;
+  padding-top: 5%;
+}
+header div h1 {
+  margin-bottom: 0;
 }
 header div #btn {
   color: white;
@@ -10326,6 +10336,11 @@ header div #btn {
   border-radius: 20px;
   border: 1px solid #EE0979;
   padding: 1% 2% 1% 2%;
+}
+
+@font-face {
+  font-family: "Aalto";
+  src: url(../../public/fonts/AaltoSansEssential-Regular.ttf);
 }
 
 /*# sourceMappingURL=style.css.map */
