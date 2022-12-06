@@ -10342,5 +10342,27 @@ header div #btn {
   font-family: "Aalto";
   src: url(../../public/fonts/AaltoSansEssential-Regular.ttf);
 }
+#sec1, #sec2, #sec3 {
+  display: flex;
+  margin: 3% 25% 3% 25%;
+}
+#sec1 .text, #sec2 .text, #sec3 .text {
+  width: 70%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#sec1 .text h1, #sec2 .text h1, #sec3 .text h1 {
+  margin: 0;
+  font-size: 35px;
+}
+#sec1 .text p, #sec2 .text p, #sec3 .text p {
+  font-size: 10px;
+}
+#sec1 .guitare, #sec2 .guitare, #sec3 .guitare {
+  width: 70%;
+  border-radius: 50%;
+}
 
 /*# sourceMappingURL=style.css.map */
