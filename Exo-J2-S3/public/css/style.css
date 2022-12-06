@@ -58,9 +58,21 @@ header {
 .container {
   display: flex;
   justify-content: center;
+  margin: 3%;
 }
 .container .card {
+  padding: 2% 2% 0% 2%;
+  text-align: center;
   background-color: #E2E0E0;
+  width: 17%;
+  height: 250px;
+  border-radius: 10px;
+}
+.container .card i {
+  border-radius: 50%;
+  background-color: white;
+  padding: 5%;
+  color: #3676BB;
 }
 
 /*# sourceMappingURL=style.css.map */
