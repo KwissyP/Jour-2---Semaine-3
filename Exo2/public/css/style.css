@@ -10289,4 +10289,43 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #00004C;
+  color: white;
+  height: 50px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  color: #8080A6;
+  list-style: none;
+}
+
+header div {
+  font-size: 25px;
+  background-color: #0000FF;
+  line-height: 0.1em;
+  padding: 8%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header div #btn {
+  color: white;
+  background-color: #EE0979;
+  border-radius: 20px;
+  border: 1px solid #EE0979;
+  padding: 1% 2% 1% 2%;
+}
+
 /*# sourceMappingURL=style.css.map */
