@@ -3,6 +3,7 @@
     font-family: "Droid"
     margin: 0
     padding: 0
+    color: #7A8498
 header
     width: 100%
     height: 100%
@@ -10,10 +11,10 @@ header
     display: flex
     justify-content: space-around
     background-color: #363B47
-    padding-bottom: 1%
     color: white
     h1
         margin-top: 1%
+        color: white
     ul
         display: flex
         list-style: none
@@ -21,6 +22,13 @@ header
         margin-top: 2%
         li
             margin-right: 10%
+            color: white
+            font-size: 15px
+            &:hover
+                background-color: #3676BB
+                padding: 5%
+                border-top-left-radius: 5px
+                border-top-right-radius: 5px
 #backhead
     width: 100%
     height: 400px
@@ -48,9 +56,73 @@ header
         background-color: #E2E0E0
         width: 17%
         height: 250px
-        border-radius: 10px
+        border-radius: 5px
         i
             border-radius: 50%
             background-color: white
             padding: 5%
             color: #3676BB
+#sec3
+    width: 90%
+    display: flex 
+    justify-content: space-around
+    margin-top: 5%
+    #text
+        width: 44%
+        margin-left: 13%
+        #btn
+            background-color: #26A2CC
+            color: white
+            border: 1px solid #26A2CC
+            padding: 3%
+            border-radius: 5px
+    #card
+        display: flex
+        width: 70%
+        margin-left: 10%
+        .cardsec3
+            width: 100%
+            border-radius: 5px
+            margin: 0%0.5%0%0.5%
+            background-color: #38485F            
+            text-align: center
+            .textsec3
+                padding: 5%
+                h3,p
+                    color: #D1D3D8
+            .imgsec3
+                object-fit: cover
+                width: 100%
+footer
+    margin-top: 7%
+    #Get
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        background-color: #3676BB
+        height: 250px
+        width: 100%
+        h3,p,i
+            color: #D1D3D8
+            width: 50%
+            text-align: center
+        h3
+            letter-spacing: 5px
+            padding-bottom: 3%
+        p
+            padding-bottom: 3%
+            line-height: 2em
+            font-size: 13px
+        #icones
+            display: flex
+        i
+            font-size: 40px
+            letter-spacing: 20px
+            color: #5E91C9
+    #copyright
+        display: flex
+        align-items: center
+        justify-content: center
+        height: 50px
+        background-color: #363B47  
